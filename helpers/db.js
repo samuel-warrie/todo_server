@@ -31,6 +31,7 @@ const openDb = () => {
     ssl: process.env.SSL,
 
   });
+  console.log(password);
   return pool;
 };
 
